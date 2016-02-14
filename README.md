@@ -27,7 +27,18 @@
 3. Ensure that it is the news bulletin of that day
 4. Also, include the link to the voice MP3 of that days morning news.
 
-### 3. Github Canned Responses
+### 3. Directory walker
+
+> Something like a disk usage analyser that works from inside the terminal itself
+
+#### Idea:
+
+1. CLI Gem
+2. Command should be something like `disk_usage --depth 2` <- which should walk down two levels
+3. Have sort orders -> `[descending (default), ascending (?)]`
+4. Use the `du -hs` call internally, unless something faster is available (? **RESEARCH**)
+
+### 4. Github Canned Responses [Already exists]
 
 > A clone of [this](https://github.com/notwaldorf/github-canned-responses)
 
