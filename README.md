@@ -46,3 +46,18 @@
 
 1. Add LGTM
 2. Have an option for custom responses (probably there in the original as well.)
+
+### 5. Transmission Digital Ocean Droplet setup Userdata
+
+> Copying and pasting user data YML should automatically spawn a client, and mail the password to me!
+
+#### Idea:
+
+1. Update the present yml on `icyflame/do_user_scripts`.
+2. Put KGP IP in the whitelist, and create a template json file (on gist maybe)
+3. Fetch this file, replace the original file with this one
+4. `sed` for the dummy password like `REPLACE_THIS` and put a random password there.
+5. Restart the transmission daemon
+6. Two options:
+	- Mail this password using something like postfix (harder setup most probably!)
+	- Store this password in the home directory (still have to ssh, but with just one step. Still a pain!)
