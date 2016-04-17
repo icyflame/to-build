@@ -27,7 +27,7 @@
 3. Ensure that it is the news bulletin of that day
 4. Also, include the link to the voice MP3 of that days morning news.
 
-### 3. Directory walker
+### 3. ~~Directory walker~~ <- Use `du -h --max-depth=1`
 
 > Something like a disk usage analyser that works from inside the terminal itself
 
@@ -38,7 +38,7 @@
 3. Have sort orders -> `[descending (default), ascending (?)]`
 4. Use the `du -hs` call internally, unless something faster is available (? **RESEARCH**)
 
-### 4. Github Canned Responses [Already exists]
+### 4. ~~Github Canned Responses [Already exists]~~ <- GitHub has enabled native support for this!
 
 > A clone of [this](https://github.com/notwaldorf/github-canned-responses)
 
