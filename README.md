@@ -27,6 +27,8 @@
 3. Ensure that it is the news bulletin of that day
 4. Also, include the link to the voice MP3 of that days morning news.
 
+***
+
 ### 3. ~~Directory walker~~ <- Use `du -h --max-depth=1`
 
 > Something like a disk usage analyser that works from inside the terminal itself
@@ -38,6 +40,8 @@
 3. Have sort orders -> `[descending (default), ascending (?)]`
 4. Use the `du -hs` call internally, unless something faster is available (? **RESEARCH**)
 
+***
+
 ### 4. ~~Github Canned Responses [Already exists]~~ <- GitHub has enabled native support for this!
 
 > A clone of [this](https://github.com/notwaldorf/github-canned-responses)
@@ -46,6 +50,8 @@
 
 1. Add LGTM
 2. Have an option for custom responses (probably there in the original as well.)
+
+***
 
 ### 5. Transmission Digital Ocean Droplet setup Userdata
 
@@ -61,3 +67,15 @@
 6. Two options:
 	- Mail this password using something like postfix (harder setup most probably!)
 	- Store this password in the home directory (still have to ssh, but with just one step. Still a pain!)
+
+***
+
+### 6. Ruby utility script to edit MP3 Tags
+
+> ruby edit-tags.rb file-name.mp3
+
+#### Idea:
+
+1. Find a MP3 Tag Editor Library
+2. Ask user for all the values of each of the tags
+3. Rename the file as per the format `Artist - Title - Album.mp3` at the end of the tag edit.
